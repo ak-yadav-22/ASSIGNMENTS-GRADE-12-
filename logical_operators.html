@@ -1,0 +1,105 @@
+<html>
+    <head>
+    </head>
+    <body style="background-color: black;">
+        <center><div class="header">
+            <h1 style="color: rgb(0, 255, 55)">Logical Operators</h1>
+        </center>
+    </div>
+        <hr style="color: aliceblue">
+        <br><br>
+        <div class="content" style="color: rgb(0, 255, 55); font-size: larger;">
+            <p>
+                <b>Logical Operation</b><br>
+
+            AND : SELECT * FROM EMPLOYEES WHERE SALARY<1000 AND AGE>25; <br>
+
+               OR : SELECT * FROM STUDENTS WHERE RANK>20 OR MARK>600; <br>
+
+            NOT : SELECT * FROM EMP WHERE NOT SALARY=10000; <br>
+
+
+            </p>
+            <br>
+            <hr style="color: aliceblue">
+            <br>
+            <p>
+                <b>
+                    GROUP -ing  Operations
+
+                </b> <br>
+                SELECT FName, LName FROM EMP GROUP BY Name;
+
+            </p>
+            <br>
+            <hr style="color: aliceblue">
+            <br>
+            <p>
+                <b>Aggregate Functions ( Mathematical Operations )
+                </b>
+                <br>
+                AVERAGE : SELECT avg(salary) FROM EMP; <br>
+
+MINIMUM : SELECT min(salary) FROM EMP; <br>
+
+MAXIMUM : SELECT max(salary) FROM EMP; <br>
+
+SUM : SELECT sum(salary) FROM EMP; <br> 
+
+CONUT : SELECT count(id) FROM EMP; <br>
+
+DISTINCT : SELECT distinct(name) FROM EMP; <br>
+
+ROUND : SELECT ROUND (Marks,2) FROM STUDENTS; 
+
+
+            </p>
+            <br>
+            <hr style="color: aliceblue">
+            <br>
+            <p>
+                <b>
+                    String Functions ( String Handling Operations )
+                </b> <br>
+                LENGTH : SELECT LEN(‘APPLE’) ; <br>
+
+REVERSE : SELECT REVERSE(‘APPLE’) ; <br>
+
+REPLICATE : SELECT REPLICATE (‘APPLE’ ,S) ; <br>
+
+UPPERCASE : SELECT UPPER (‘apple’) ; <br>
+
+LOWERCASE : SELECT LOWER (‘APPLE’) ; <br>
+
+CONCATENATION : SELECT CONCAT (‘NE’,’PA’,’L’) ; <br>
+
+LEFTMOST CHARACTER : SELECT LEFT (‘APPLE’,3) ; <br>
+
+RIGHTMOST CHARACTER : SELECT RIGHT (‘APPLE’,3) ; 
+
+            </p>
+            <br>
+            <hr style="color: aliceblue">
+            <br>
+            <p>
+                <b>
+                    Others
+                </b>
+                <br>
+                IN : SELECT ADDRESS FROM STD WHERE IN (“KTM”, “BKT”,”PTN”); <br>
+
+BETWEEN : SELECT SALARY FROM EMP BETWEEN 30000 AND 40000; <br>
+
+PERCENTAGE : SELECT NAME FROM STD LIKE “%a”; <br>
+
+UNDERSCORE : SELECT NAME FROM STD LIKE “%_b”; <br>
+
+HAVING : SELECT NAME FROM STD WHERE GRADE=”A” HAVING MARKS>800; 
+
+            </p>
+            <br>
+            <hr style="color: aliceblue">
+            <br>
+        </div>
+    </body>
+</html>
