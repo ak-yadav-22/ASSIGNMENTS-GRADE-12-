@@ -1,0 +1,47 @@
+<html>
+    <head>
+    </head>
+    <body style="background-color: black;">
+        <center><div class="header">
+            <h1 style="color: rgb(0, 255, 55)">Foreign Key and JOIN Statements</h1>
+        </center>
+    </div>
+        <hr style="color: aliceblue">
+        <br><br>
+        <div class="content" style="color: rgb(0, 255, 55); font-size: larger;">
+            <p>
+                <b>
+                    Foreign Key:
+                </b><br>
+                Foreign keys enforce data integrity, ensuring that data adheres to specific rules when added to the database. They create a relationship between two tables, typically using a primary key/foreign key field relationship.
+                 For example: If you have an order_details table with a field order_id referencing an orders table, the foreign key ensures that an order_id value in order_details always exists in the orders table.
+            </p>
+            <br>
+            <hr style="color: aliceblue">
+        <br>
+        <p>
+            <b>JOIN Statements:</b>
+            <br>
+            JOINs are used when retrieving/querying data from the database. They specify rules on how to select data from multiple tables. JOINs combine data from different tables based on specified conditions (e.g., matching values in columns).
+            <br>
+            <hr style="color: aliceblue">
+            <br>
+            <b>Types of JOINS:</b>
+            <br>
+            <uL>
+                <li>INNER JOIN: Returns only matching rows from both tables.</li>
+                <li>LEFT JOIN (or LEFT OUTER JOIN): Returns all rows from the left table and matching rows from the right table.</li>
+                <li>RIGHT JOIN (or RIGHT OUTER JOIN): Similar to LEFT JOIN but includes all rows from the right table.</li>
+                <li>FULL OUTER JOIN: Returns all rows from both tables, filling in NULL values where no match exists.</li>
+            </uL>
+
+        </p>
+        <br>
+        <hr style="color: aliceblue">
+        <br>
+        <p>
+            In summary, foreign keys ensure data consistency, while JOINs allow you to combine data from multiple tables. Both are essential for effective database design and querying.
+        </p>
+        </div>
+    </body>
+</html>

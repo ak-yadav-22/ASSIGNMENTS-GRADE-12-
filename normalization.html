@@ -1,0 +1,51 @@
+<html>
+    <head>
+    </head>
+    <body style="background-color: black;">
+        <center><div class="header">
+            <h1 style="color: rgb(0, 255, 55)">Normalization in Database</h1>
+        </center>
+    </div>
+        <hr style="color: aliceblue">
+        <br><br>
+        <div class="content" style="color: rgb(0, 255, 55); font-size: larger;">
+            <p>
+                Database normalization is the process of organizing data within a relational database to reduce redundancy and improve data integrity.
+            </p>
+            <br>
+            <hr  style="color: aliceblue">
+            <br>
+            <p>
+                <b>Purposes of Normalization:</b>
+                <br>
+                <ul>
+                    <li>Data Redundancy: Without normalization, the same data might be stored in multiple places, leading to inefficiency and increased storage requirements.</li>
+                    <li>Data Integrity: Normalization ensures accurate data by preventing anomalies like insert, update, and delete issues.</li>
+                    <li>Efficient Queries: Well-normalized databases allow faster query execution.</li>
+                </ul>
+            </p>
+            <br>
+            <hr  style="color: aliceblue">
+            <br>
+            <p>
+                <b>Normal Forms:</b>
+                <br>
+                <ul>
+                    <li>First Normal Form (1NF): Ensures that each column contains only atomic (indivisible) values. No repeating groups or arrays.</li>
+                    <li>Second Normal Form (2NF): Builds on 1NF by eliminating partial dependencies. All non-key attributes depend entirely on the primary key.</li>
+                    <li>Third Normal Form (3NF): Further reduces redundancy by removing transitive dependencies. Non-key attributes depend only on the primary key.</li>
+                </ul>
+            </p>
+            <br>
+            <hr  style="color: aliceblue">
+            <br>
+            <p>
+                <b>Example:</b>
+                Imagine a student database with columns like Student ID, Student Name, Fees Paid, Course Name, and Classes. If we normalize this, we’d split it into separate tables for students, courses, and classes, linking them through keys.
+                <br>
+Remember, normalization ensures efficient, accurate, and well-structured databases.
+                <br>
+            </p>
+        </div>
+    </body>
+</html>
