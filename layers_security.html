@@ -1,0 +1,41 @@
+<html>
+    <head>
+    </head>
+    <body style="background-color: black;">
+        <center><div class="header">
+            <h1 style="color: rgb(0, 255, 55)">Layers of Data Security, Data Integrity and Anomalies</h1>
+        </center>
+    </div>
+        <hr style="color: aliceblue">
+        <br><br>
+        <div class="content" style="color: rgb(0, 255, 55); font-size: larger;">
+            <p>
+
+            <b> Layers of Data Security: </b>
+            <br>
+Securing data in a Database Management System (DBMS) is multi-dimensional and it involves a few layers that guarantee the data is protected from any form of illegal access and breaches. The first layer is authentication, which decides if that person trying to access the database is who he says he is or not. Authentication means, typically, things like passwords, biometric authentication, or multi-factor authentication, which are aimed at ensuring that only those who have permission can get access to sensitive information. Authorization (the second step) is basically a process through which it is decided by which roles are the users are allowed to do certain tasks in the database. A typical scenario for this would be the management of roles and permissions which are created to give access to a specific group for the execution of the operation write, the operation read, or some other limited administrative capabilities. The final category of the three layers is encryption, which directly protects and secures data both when it is stored (at rest) and when it is transmitted (the data is moving across the networks). Encryption makes the data unrecognizable and only the decryption key decrypts it again, thus, the unauthorized interception and access are eliminated. Moreover, auditing and monitoring are a couple of other layers that are significant in which one tracks and logs the database's activities to reveal the presence of security violations or breaches. With the proper maintenance of the comprehensive records and their regular review, the attacks of hackers are spotted and appropriate measures are taken immediately.
+</p>
+<br>
+<hr style="color: aliceblue">
+<br>
+<p>
+    <b>Layers of Data Integrity:</b>
+    <br>
+    Data integrity ensures that the data stored within a DBMS remains accurate, consistent, and reliable over its lifecycle. This involves implementing various constraints and validation rules that prevent erroneous or malicious data entries. Entity integrity is a fundamental concept that mandates each table in a database to have a primary key, ensuring that each record is unique and can be accurately identified. Referential integrity ensures that relationships between tables remain consistent, such as maintaining valid foreign key references to prevent orphaned records. Domain integrity involves ensuring that the data entered into a column adheres to predefined rules or constraints, such as data type restrictions or range constraints, to prevent invalid data entries. User-defined integrity allows organizations to implement additional rules specific to their business needs, providing further customization and control over data validity. Together, these integrity constraints work synergistically to maintain the quality and accuracy of data, ensuring that it meets the organization's operational and analytical requirements.
+
+
+</p>
+<br>
+<hr style="color: aliceblue">
+<br>
+<p>
+    <b>Types of Anomalies in DBMS:</b>
+    <br>
+    Anomalies in a DBMS typically refer to issues or inconsistencies that arise due to improper database design or manipulation, which can affect data quality and system performance. The most common types of anomalies are update anomalies, insertion anomalies, and deletion anomalies. An update anomaly occurs when changes to data in one part of the database require corresponding updates in other parts, but these updates are not consistently applied, leading to discrepancies. For example, if a customer’s address is updated in one record but not in all related records, this can result in conflicting information. Insertion anomalies arise when the design of the database schema makes it difficult to add new data without introducing inconsistencies or null values. For instance, if a database design requires inserting data into multiple tables simultaneously, failure to do so can lead to incomplete records. Deletion anomalies occur when the removal of data inadvertently causes loss of other valuable data. For instance, deleting a record might remove associated information that is still needed, such as removing a student record that also deletes related course information. Addressing these anomalies involves implementing normalization techniques to design the database schema in a way that minimizes redundancy and ensures data consistency. Normalization breaks down data into related tables, reducing the likelihood of these anomalies and improving the overall integrity of the database system.
+</p>
+<br>
+<hr style="color: aliceblue">
+<br>
+        </div>
+    </body>
+</html>
